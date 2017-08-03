@@ -1,0 +1,64 @@
+body{
+  width:90%;
+  margin: 0 auto;
+}
+
+.header{
+  text-align: center;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+/*.container div{
+  width: 20%;
+  border:2px solid grey;
+  margin: 20px;
+  height: 250px;*/
+
+/*}*/
+.music-box{
+  width: 20%;
+  border:2px solid grey;
+  margin: 20px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+/*.music-box div{
+  width: 100%;
+  height: 250px;*/
+
+
+input {
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+.input-section{
+  /*width:90%;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button{
+  width: 15%;
+  padding :20px;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+form{
+  width: 80%;
+}
